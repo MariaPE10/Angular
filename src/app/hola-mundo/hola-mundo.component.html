@@ -8,4 +8,10 @@
             {{elementos}}
         </li>
     </ul>
+
+    <h2>Ahora lo ponemos de la otra forma</h2>
+    <ul>
+        <app-cosas *ngFor="let elementito of cosicas" [nombreCosas]="elementito"></app-cosas>
+        <app-cosas [nombreCosas]="'Nombre de las cosas'"></app-cosas>
+    </ul>
 </div>
