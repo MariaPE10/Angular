@@ -7,9 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NuevoComponenteComponent implements OnInit {
 
-  public miPropiedad:string;
+  public title:string;
   constructor() {
-    this.miPropiedad = "Maria";
+    this.title = "Bienvenido a Angular 6";
   }
 
   ngOnInit() {
